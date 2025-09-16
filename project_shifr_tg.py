@@ -46,7 +46,7 @@ def caesar_decrypt(txt, shift=3):
     return result
 
 
-TOKEN = '7508586387:AAEGqD9GOn4dGqUMu2sENxJWtB7va2TpqWo'
+TOKEN = 'YOUR TOKEN'
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
